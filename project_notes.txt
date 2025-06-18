@@ -1,0 +1,41 @@
+PROJECT NAME: Automatic Hate Speech Detection on Social Media
+
+OBJECTIVE:
+To build a machine learning-based system that can classify social media comments/tweets into Hate or Non-Hate speech using text processing and classification algorithms.
+
+KEY COMPONENTS:
+- Data collected from Twitter (Kaggle)
+- Preprocessing using techniques like stopword removal, stemming, hashtag cleaning, URL handling, etc.
+- Feature engineering using:
+  - Bag of Words (BOW)
+  - TF-IDF
+  - N-grams (bigram, trigram)
+- Algorithms used:
+  - Naive Bayes (Multinomial, Bernoulli)
+  - Logistic Regression
+  - Support Vector Machine (SVM)
+  - Random Forest
+  - Stochastic Gradient Descent
+  - XGBoost
+  - Multilayer Perceptron (MLP)
+
+SPECIAL TECHNIQUES:
+- Negation Handling (`not_good` feature creation)
+- Confidence score calculation using majority vote from classifiers
+- Pickle used for model persistence (to avoid retraining every time)
+
+OUTPUT:
+- Detects hate speech in user input or live tweets
+- Provides sentiment label (positive/negative/neutral)
+- Shows accuracy comparison of different classifiers via graphs
+- Confidence percentage for prediction
+
+TESTED ON:
+- Predefined dataset (Kaggle)
+- Live tweets from Twitter (via API)
+
+FUTURE ENHANCEMENTS:
+- Use deep learning models (BERT, RNN)
+- Add multilingual support
+- Build a web interface
+- Train with larger datasets
