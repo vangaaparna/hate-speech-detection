@@ -1,0 +1,19 @@
+REFERENCES USED
+
+PAPERS:
+1. Twitter Hate Speech Prediction Analysis: Efthymios Kouloumpis, Theresa Wilson, Johanna Moore
+2. Hate Speech Analysis of Twitter Data by Apoorv Agarwal, Boyi Xie, et al.
+3. Hate Speech Prediction Analysis using ML and Semantic Analysis – Geetika Gautam
+4. Modeling and Representing Negation in Data-driven ML – Robert Remus
+5. Topic-based Lexicon Expansion for Hate Speech – Zhixin Zhou, Xiuzhen Zhang
+
+BOOKS:
+- Learning Python, Mark Lutz
+- Python for Data Analysis, Wes McKinney
+- Introduction to Python for Data Science – Kevin Sheppard
+
+WEBSITES:
+- https://www.python.org/
+- https://scikit-learn.org/
+- https://nltk.org/
+- https://dev.twitter.com/
